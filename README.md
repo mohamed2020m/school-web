@@ -32,19 +32,13 @@ This project is a complete CRUD of a school app made with ReactJS and TailwindCS
 
 ## Installation
 
-1. Clone the repo and change "my-project" to your project name.
+1. Clone the repo.
 
 ```sh
   git clone https://github.com/mohamed2020m/student.git
 ```
 
-2. Go to the project directory
-
-```sh
-  cd my-project
-```
-
-3. Install NPM packages
+2. Install NPM packages
 
 ```sh
   yarn install
@@ -71,4 +65,4 @@ Build the project
 ## Contact
 
 - Gmail - [mohamedessabir20@gmail.com](mailto:mohamedessabir20@gmail.com)
-- Instagram - [@jmdp.02](https://www.instagram.com/leeuw_med)
+- Instagram - [leeuw_med](https://www.instagram.com/leeuw_med)
