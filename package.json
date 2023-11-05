@@ -1,5 +1,5 @@
 {
-  "name": "Student Web",
+  "name": "react-mongodb-ts-app",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
