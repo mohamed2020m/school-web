@@ -1,13 +1,4 @@
-import React,{ FC } from 'react'
-
-// interface ButtonProps {
-//   label: string
-//   click?: () => void
-//   isClose?: boolean
-//   isSubmit?: boolean
-//   isLoading?: boolean
-//   solid?: boolean
-// }
+import React from 'react'
 
 export const Button= ({
   label,
@@ -22,7 +13,7 @@ export const Button= ({
       className={`${
         isClose
           ? 'bg-white text-red-500 active:bg-red-600 active:text-white border border-red-500 hover:bg-red-500 hover:text-white'
-          : solid ? 'bg-red-500 text-white active:bg-red-600' :'bg-cyan-500 text-white active:bg-cyan-600 border border-transparent'
+          : solid ? 'bg-green-500 text-white active:bg-red-300' :'bg-red-500 text-white active:bg-red-300 border border-transparent'
       } font-bold uppercase text-sm px-6 py-3 rounded-xl shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150`}
       onClick={click}
       type={isSubmit ? 'submit' : 'button'}

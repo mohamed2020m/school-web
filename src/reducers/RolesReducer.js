@@ -28,23 +28,6 @@ const RolesReducer = (state, action) => {
             roles: state.roles.filter(role => role._id !==  action.payload)
         }
 
-    // case 'EDIT_Role':
-    //     const found =  state.roles.find(item => item._id === action.payload._id)
-
-    //     return {
-    //         ...state,
-    //         roles: state.roles.map(role => {
-    //         if(found) {
-    //             Object.assign(found, action.payload)
-    //             return {
-    //                 ...role
-    //             }
-    //         }
-
-    //         return role
-    //         })
-    //     }
-
     case 'EDIT_Role':
         const foundIndex = state.roles.findIndex(item => item._id === action.payload._id);
 

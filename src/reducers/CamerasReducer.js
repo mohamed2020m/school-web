@@ -1,6 +1,6 @@
-import { CamerasActions, ContextState } from '../interfaces'
 
-const CamerasReducer = (state: ContextState, action: CamerasActions): ContextState => {
+
+const CamerasReducer = (state, action) => {
   switch (action.type) {
     case 'SET_CAMERAS':
       return {

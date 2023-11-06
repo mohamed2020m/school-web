@@ -1,8 +1,7 @@
-import React, { FC, useReducer, useEffect } from 'react'
+import React, { useReducer, useEffect } from 'react'
 import axios from 'axios'
-// import { Role, Roles, ContextStateRole, BackendRole } from '../interfaces/Role'
-import { API_URL } from '../utils/base-url'
-import RolesReducer from '../reducers/RolesReducer'
+import { API_URL } from '../../utils/base-url'
+import RolesReducer from '../../reducers/RolesReducer'
 import RolesContext from './RolesContext'
 
 const INIT_STATE = {
@@ -17,9 +16,8 @@ const RolesProvider= ({ children }) => {
 
     const getRoles = async () => {
         try {
-            const { data } = await axios.get(API_URL)
+            const { data } = await axios.get(API_URL + '/roles')
 
-            // Map backend received data (array of roles) to the frontend Role interface
             result.dataRoles = data.map((backendRole) => {
                 return {
                     _id: String(backendRole.id), 

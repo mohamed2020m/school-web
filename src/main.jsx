@@ -2,12 +2,17 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
 import App from './App'
-import CamerasProvider from './context/CamerasProvider'
-import RolesProvider from './context/RolesProvider'
+import RolesProvider from './context/roles/RolesProvider'
+import FilieresProvider from './context/filieres/FilieresProvider'
+import StudentsProvider from './context/students/StudentsProvider'
 
 ReactDOM.render(
-  <RolesProvider>
-    <App />
-  </RolesProvider>,
+  <StudentsProvider>
+    <FilieresProvider>
+        <RolesProvider>
+          <App />
+        </RolesProvider>
+      </FilieresProvider>
+  </StudentsProvider>,
   document.getElementById('root')
 )
