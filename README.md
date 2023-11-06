@@ -5,11 +5,10 @@
 - [About The Project](#about-the-project)
   - [Description](#description)
   - [Built With](#built-with)
+- [Demo](#demo)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Demo](#demo)
 - [Contact](#contact)
-
 
 
 ## Description
@@ -19,12 +18,17 @@ This project is a complete CRUD of a school app made with ReactJS and TailwindCS
 - The mobile version is also available [Here](https://github.com/mohamed2020m/school)
 - The Backend is build with Sprint boot v3 you can find it [Here](https://github.com/mohamed2020m/school_backend)
 
-
 ## Built With
 
 [![ReactJS](https://img.shields.io/badge/React.js-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org)
 
 [![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com)
+
+
+## Demo
+
+https://github.com/mohamed2020m/school-web/assets/60801395/17d263de-1ba2-4afe-b0bb-b25a399f40e3
+
 
 ## Installation
 
@@ -53,10 +57,6 @@ Build the project
 ```npm
   yarn build
 ```
-
-## Demo
-
-
 
 ## Contact
 
