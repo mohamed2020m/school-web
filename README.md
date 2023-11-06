@@ -35,7 +35,7 @@ https://github.com/mohamed2020m/school-web/assets/60801395/17d263de-1ba2-4afe-b0
 1. Clone the repo.
 
 ```sh
-  git clone https://github.com/mohamed2020m/student.git
+  git clone https://github.com/mohamed2020m/school-web.git
 ```
 
 2. Install NPM packages
