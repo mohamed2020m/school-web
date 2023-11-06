@@ -16,6 +16,10 @@
 
 This project is a complete CRUD of a school app made with ReactJS and TailwindCSS.
 
+- The mobile version is also available [Here](https://github.com/mohamed2020m/school)
+- The Backend is build with Sprint boot v3 you can find it [Here](https://github.com/mohamed2020m/school_backend)
+
+
 ## Built With
 
 [![ReactJS](https://img.shields.io/badge/React.js-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org)
@@ -57,4 +61,3 @@ Build the project
 ## Contact
 
 - Gmail - [mohamedessabir20@gmail.com](mailto:mohamedessabir20@gmail.com)
-- Instagram - [leeuw_med](https://www.instagram.com/leeuw_med)
