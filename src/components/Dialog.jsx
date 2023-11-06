@@ -1,13 +1,6 @@
-import React,{ FC } from 'react'
+import React from 'react'
 import { Button } from './Button'
 import { RawModal } from './RawModal'
-
-// interface DialogProps {
-//   click?: () => void
-//   onClose: () => void
-//   error?: boolean
-//   btnLoading?: boolean
-// }
 
 export const Dialog = ({
   click,

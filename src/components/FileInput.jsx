@@ -1,10 +1,6 @@
-import React,{ FC } from 'react'
+import React from 'react'
 import NoImage from '../assets/no-image.png'
 
-// interface FileInputProps {
-//   name: string
-//   imgSelected: string | ArrayBuffer
-// }
 
 export const FileInput = ({
   children,

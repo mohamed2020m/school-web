@@ -1,16 +1,11 @@
 import React,{ FC, useState } from 'react'
-// import { Role } from '../../interfaces/Role'
 import { Dialog } from '../Dialog'
 import { ModalRole } from './ModalRole'
-import { BASE_URL } from '../../utils/base-url'
 import { useRoles } from '../../hooks/useRoles'
 import { deleteRole } from '../../services/roles'
 import {BsFillTrash3Fill} from 'react-icons/bs';
 import {BiSolidEditAlt} from 'react-icons/bi';
 
-// interface RolesItemProps {
-//   role : Role
-// }
 
 export const RolesItem= ({ role }) => {
   const { _id, name } = role

@@ -10,15 +10,7 @@
 - [Demo](#demo)
 - [Contact](#contact)
 
-## About The Project
 
-<!-- ![preview](demo/preview.png)
-
-![add-preview](demo/add-preview.png)
-
-![edit-preview](demo/edit-preview.png)
-
-![delete-preview](demo/delete-preview.png) -->
 
 ## Description
 

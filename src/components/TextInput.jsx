@@ -1,12 +1,4 @@
-import React,{ FC, ChangeEvent } from 'react'
-
-// interface TextInputProps {
-//   name: string
-//   placeholder: string
-//   value?: string | number
-//   onChange?: (e: ChangeEvent<HTMLInputElement>) => void
-//   isNumberic?: boolean
-// }
+import React from 'react'
 
 export const TextInput = ({
   name,

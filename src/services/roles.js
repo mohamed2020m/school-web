@@ -1,5 +1,4 @@
 import axios from 'axios'
-// import { Role, RoleDTO, BackendRole } from '../interfaces/Role'
 import { API_URL } from '../utils/base-url'
 
 export const addRole = async (newRole) => {

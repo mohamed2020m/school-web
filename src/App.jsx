@@ -9,11 +9,10 @@ import {NotFound} from './components/NotFound';
 const App = () => {
   return (
     <>
-      <StickyNavbar />
-      <main className='flex flex-col items-center bg-primary min-h-screen'>
-        <div className='container p-4'>
-    
-          <BrowserRouter>
+      <BrowserRouter>
+        <StickyNavbar />
+        <main className='flex flex-col items-center bg-primary min-h-screen'>
+          <div className='container p-4'>
             <div>
               <Routes>
                 <Route>
@@ -25,10 +24,9 @@ const App = () => {
                 </Route>
               </Routes>
             </div>
-          </BrowserRouter>
-          
-        </div>
-      </main>
+          </div>
+        </main>
+      </BrowserRouter>
     </>
   )
 }

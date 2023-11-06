@@ -8,6 +8,8 @@ import {
   Card,
 } from "@material-tailwind/react";
  
+import { Link  } from 'react-router-dom';
+
 import { school } from '../assets';
 
 export function StickyNavbar() {
@@ -28,9 +30,13 @@ export function StickyNavbar() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="/students" className="flex items-center">
+        {/* <a href="/students" className="flex items-center">
           Students
-        </a>
+        </a> */}
+
+        <Link to="/students">
+          Students
+        </Link>
       </Typography>
       <Typography
         as="li"
@@ -38,9 +44,12 @@ export function StickyNavbar() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="/roles" className="flex items-center">
+        {/* <a href="/roles" className="flex items-center">
           Roles
-        </a>
+        </a> */}
+        <Link to="/roles">
+          Roles
+        </Link>
       </Typography>
       <Typography
         as="li"
@@ -48,9 +57,12 @@ export function StickyNavbar() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="/filieres" className="flex items-center">
+        {/* <a href="/filieres" className="flex items-center">
           Filieres
-        </a>
+        </a> */}
+        <Link to="/filieres">
+          Filieres
+        </Link>
       </Typography>
     </ul>
   );

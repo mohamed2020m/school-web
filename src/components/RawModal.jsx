@@ -1,9 +1,6 @@
-import React,{ FC, MouseEventHandler } from 'react'
+import React from 'react'
 import { Portal } from './Portal'
 
-// interface RawModalProps {
-//   onClose: () => void
-// }
 
 export const RawModal = ({ onClose, children }) => {
   return (

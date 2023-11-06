@@ -1,7 +1,6 @@
 import React,{ useState } from 'react'
 import { useRoles } from '../../hooks/useRoles'
 import { Button } from '../Button'
-// import { CamerasItem } from '../CamerasItem'
 import { ModalRole } from './ModalRole'
 import { Spinner } from '../Spinner'
 import { TableRole } from './TableRole'

@@ -1,4 +1,4 @@
-import React,{ useState, useEffect} from 'react'
+import React,{ useState} from 'react'
 import { useStudents } from '../../hooks/useStudents'
 import { useForm } from '../../hooks/useForm'
 import { addStudent, editStudent} from '../../services/students'
@@ -227,8 +227,3 @@ export const ModalStudents= ({ onClose, isEdit, filieresList, rolesList, item}) 
         </RawModal>
     )
 }
-
-// Define default props outside of the component
-ModalStudents.defaultProps = {
-    filieresList: [], 
-};
